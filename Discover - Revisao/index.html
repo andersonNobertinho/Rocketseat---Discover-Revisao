@@ -1,0 +1,57 @@
+<!-- Define o documento como HTML 5 -->
+<!DOCTYPE html>
+<!-- Elemento raiz com atributo para a linguagem em portugues -->
+<html lang="pt-br" class="light">
+  <!-- Configurações do documento que não aparece para o usuário -->
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--  -->
+    <meta charset="UTF-8" />
+    <!-- Tuda tela visivel é a viewport e essa linha define a viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Titulo que aparece na aba do navegador -->
+    <title>Projeto</title>
+    <!-- Importa o arquivo css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+         <img src="./assets/avatar.png" alt="Foto do rosto do Anderson usando camiseta azul marinho">
+         <p>@Ferreirinha</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+
+      </div>
+
+      <ul>
+        <li><a href="http://" target="_blank">Inscrever-se no NLW</a></li>
+        <li><a href="http://" target="_blank">Baixar meu e-book</a></li>
+        <li><a href="http://" target="_blank">Ver meu portifólio</a></li>
+        <li><a href="http://" target="_blank">Conheça o explorer</a></li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/andersonNobertinho" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://www.instagram.com/andersonnobertinho/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="http://" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/anderson-ferreira-4125742a/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>    
+      </div>
+
+      <footer>
+        Feito com ♥ pela <a href="https://rocketseat.com.br">Rocketseat</a> 
+      </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
